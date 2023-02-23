@@ -8,7 +8,9 @@ bedrock.startServer("1.18.0", onStart, {
   //path: "./bds",
 });*/
 
-const path = "./bds";
-const a = process.chdir(path);
+const { readdirSync } = require("fs");
 
-console.log({ a });
+const path = ".";
+const files = readdirSync(path);
+
+console.log({ files });
