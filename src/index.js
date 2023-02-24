@@ -15,5 +15,4 @@ const path = ".";
 const files = readdirSync(path);
 
 console.log({ files });
-"/
-"
+*/
