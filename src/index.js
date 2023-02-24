@@ -1,6 +1,6 @@
 const { execSync } = require("child_process");
 
-execSync(`apt install curl`);
+execSync(`wget`);
 
 /*
 const bedrock = require("minecraft-bedrock-server");
