@@ -1,3 +1,8 @@
+const { execSync } = require("child_process");
+
+execSync(`apt install curl`);
+
+/*
 const bedrock = require("minecraft-bedrock-server");
 
 const onStart = (data) => console.log("Server started!", data);
